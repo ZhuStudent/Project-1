@@ -14,6 +14,7 @@ class StudentList
     
     public:
     StudentList();
+    ~StudentList();
     void appendNode(int, double);
     void insertNode(int, double);
     void deleteNode(int, double);
