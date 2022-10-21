@@ -7,6 +7,11 @@ StudentList::StudentList()
     head = nullptr;
 }
 
+StudentList::~StudentList()
+{
+    delete head;
+}
+
 void StudentList::appendNode(int num, double num2)
 {
     ListNode *newNode;
